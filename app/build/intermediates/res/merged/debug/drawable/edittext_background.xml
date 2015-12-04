@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:shape="rectangle" >
+
+    <solid android:color="#009e4a" />
+
+    <corners
+       android:padding="5dp"
+        android:bottomLeftRadius="1dip"
+        android:bottomRightRadius="1dip"
+        android:topLeftRadius="1dip"
+        android:topRightRadius="1dip" />
+
+</shape><!-- From: file:/G:/project/android/chodongsuk_studio/yogerpresso/app/src/main/res/drawable/edittext_background.xml -->

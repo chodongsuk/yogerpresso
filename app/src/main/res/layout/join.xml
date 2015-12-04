@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/join" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/editText_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:background="@drawable/edittext_background"
+                    android:hint="아이디 입력 "
+                    android:paddingLeft="5dip"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="13sp" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="0.3"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dip"
+                    android:background="@drawable/btn_color_selector"
+                    android:text="ID 중복확인"
+                    android:textColor="#fff"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+             android:password="true"
+             android:id="@+id/editText_pw"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/edittext_background"
+            android:hint="비밀번호 입력 "
+            android:paddingLeft="5dip"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="13sp" >
+        </EditText>
+
+        <EditText
+             android:id="@+id/editText_name"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/edittext_background"
+            android:hint="이름 입력 "
+            android:paddingLeft="5dip"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="13sp" >
+        </EditText>
+
+        <EditText
+             android:id="@+id/editText_tell"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/edittext_background"
+            android:hint="전화번호 입력 "
+            android:paddingLeft="5dip"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="13sp" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dip"
+            android:background="#fff"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:layout_weight="0.5"
+                android:background="#fff"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@drawable/btn_color_selector"
+                    android:text="가입"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:layout_weight="0.5"
+                android:background="#fff"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:background="@drawable/btn_color_selector"
+                    android:text="취소"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout>
